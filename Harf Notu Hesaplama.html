@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çan Eğrisi Hesaplama</title>
+<link rel="stylesheet" type="text/css" href="HarfNotu.css">
+</head>
+<body>
+
+<h2 style="color: red; text-align: center;">Çan Eğrisi Hesaplama Harf Notu Hesaplama</h2>
+
+<div class="sol">
+  
+  <div>
+  <label for="quiz1">Quiz 1 (%10):</label>
+  <input type="number" id="quiz1" step="any" min="0" max="100">&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="classMeanQuiz1">Quiz 1 Sınıf Ortalaması:</label>
+  <input type="number" id="classMeanQuiz1" step="any" min="0">
+</div>
+
+<div>
+  <label for="quiz2">Quiz 2 (%10):</label>
+  <input type="number" id="quiz2" step="any" min="0" max="100">&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="classMeanQuiz2">Quiz 2 Sınıf Ortalaması:</label>
+  <input type="number" id="classMeanQuiz2" step="any" min="0">
+</div>
+
+<div>
+  <label for="odev">Ödev (%10)&nbsp;&nbsp;:</label>
+  <input type="number" id="odev" step="any" min="0" max="100">&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="classMeanOdev">Ödev Sınıf Ortalaması:&nbsp;&nbsp;</label>
+  <input type="number" id="classMeanOdev" step="any" min="0">
+</div>
+
+<div>
+  <label for="vize">Vize (%20)&nbsp;&nbsp;&nbsp;:</label>
+  <input type="number" id="vize" step="any" min="0" max="100">&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="classMeanVize"> Vize Sınıf Ortalaması:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="number" id="classMeanVize" step="any" min="0">
+</div>
+
+<div>
+  <label for="final">Final (%50)&nbsp;&nbsp;:</label>
+  <input type="number" id="final" step="any" min="0" max="100">&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="classMeanFinal">Final Sınıf Ortalaması:&nbsp;&nbsp;</label>
+    <input type="number" id="classMeanFinal" step="any" min="0">
+  </div>
+  
+  
+  <label for="classStdDev">Standart Sapma:</label>
+  <input type="number" id="classStdDev" step="any" min="0">
+  <button onclick="calculateGrade()">Hesapla</button>
+
+</div>
+ 
+
+
+</div>
+
+<div class="sağ">
+  <p id="SeninOrt"></p>
+  <p id="SinifOrt"></p>
+  <p id="HBN"></p>
+  <p id="StandartliHesaplama"></p>
+  <p id="result"></p>
+  <p id="harfNotu"></p>
+
+</div>
+<script src="HarfNotuHe.js"></script>
+<img style="margin-top: 15px;" src="tablo.png" alt="">
+
+</body>
+</html>

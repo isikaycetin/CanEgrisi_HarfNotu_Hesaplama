@@ -1,0 +1,45 @@
+div{
+    margin: 5px;
+    
+}
+.sol{
+ float: left;
+}
+.sağ{
+    position: relative;
+    left: 25px;
+    top: 8px;
+   
+}
+label{
+    font-size: large;
+    font-weight: bolder;
+}
+input{
+    border-radius: 3px;
+    width: 150px;
+    height: 20px;
+    background-color: antiquewhite;
+    margin-left: 5px;
+}
+input:hover{
+    cursor: pointer;
+    width: 151px;
+    transition: 0.25s;
+}
+button{
+   margin-left: 30px;
+   margin-top: 10px;
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   background-color: black;
+   color: antiquewhite;
+   border-radius: 3px;
+  
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: antiquewhite;
+}
