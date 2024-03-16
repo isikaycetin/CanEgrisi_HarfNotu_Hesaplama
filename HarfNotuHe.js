@@ -32,7 +32,8 @@ function calculateGrade() {
   // Sınavların ortalaması
   var examAverage = quiz1_ + quiz2_ + odev_ + vize_ + final_;
   var sort = classMeanQuiz1_ + classMeanQuiz2_ + classMeanOdev_ + classMeanVize_ + classMeanFinal_;
-
+  
+  //Sınav Ortalaması - sınıf ortalaması
    var HB = examAverage - sort;
   
   // Z puanı hesaplama
